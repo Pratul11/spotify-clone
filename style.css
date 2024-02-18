@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Varela+Round&display=swap');
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+nav {
+
+    background-color: black;
+    color: white;
+    height: 40px;
+    padding: 13px 10px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 0 15px;
+    font-family: "Varela Round", sans-serif;
+}
+
+.brand img {
+    width: 40px;
+    padding-right: 10px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    font-family: "Protest Riot", sans-serif;
+}
+
+.container {
+    min-height: 72vh;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    flex-direction: column;
+}
+
+#progressBar {
+    width: 80vw;
+}
